@@ -12,3 +12,15 @@ p{
   font-size: 90%;
   color: black;
 }
+
+
+.col1{
+  background-color: aqua;
+}
+.col2{
+  background-color:yellow;
+}
+.col3{background-color: red;}
+.col4{background-color: orange;}
+.col5{background-color: violet;}
+
