@@ -10,8 +10,23 @@
     margin-left: 4cm;
 
 }
-#intro{
+
+#intro {
     width: 20cm;
     height: 4cm;
     border: 2px solid red;
 }
+#pplane{width: auto;
+    height: 8cm;
+    border: 2px solid red;
+    margin-left: 22cm;
+    margin-top: -4.1cm;
+    margin-right: 2cm;
+    display: flex;
+
+}
+#plane{text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+    margin-top: 3cm;
+margin-left: 10px;}
