@@ -1,14 +1,17 @@
-*{background-color: rgb(203, 203, 222);}
-h1 {font: italic bold 24pt  fantasy; color: red; }
-.box1{position: relative;
-    margin-left: 25cm;
+* {
+    background-color: rgb(203, 203, 222);
+}
 
- margin-top: -10cm;
-    
-    padding: 5px;
-    width: 2cm;
-    height: 2cm;
+#header {
+    font-family: courier;
+    font-weight: bold;
+    font-size: 1cm;
+    color: rgb(82, 176, 82);
+    margin-left: 4cm;
 
-border: 2px solid red;
-
+}
+#intro{
+    width: 20cm;
+    height: 4cm;
+    border: 2px solid red;
 }
