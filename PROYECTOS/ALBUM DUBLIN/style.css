@@ -15,18 +15,62 @@
     width: 20cm;
     height: 4cm;
     border: 2px solid red;
+    margin-top: 3cm;
+
 }
-#pplane{width: auto;
+
+#pplane {
+    width: auto;
     height: 8cm;
     border: 2px solid red;
     margin-left: 22cm;
-    margin-top: -4.1cm;
+    margin-top: -6.1cm;
     margin-right: 2cm;
     display: flex;
 
 }
-#plane{text-align: center;
+
+#plane {
+    text-align: center;
     font-family: fantasy;
+    font-style: italic;
+    font-display: hand;
     font-weight: bolder;
     margin-top: 3cm;
-margin-left: 10px;}
+    margin-left: 10px;
+}
+
+#Cathedral {
+    width: 32cm;
+    height: 20cm;
+    border: 5px solid red;
+    margin-top: 2cm;
+    display: inline-flex;
+
+}
+
+
+#c1 {
+    display: inline-flex;
+    border: 1px solid red;
+
+    margin-bottom: 5cm;
+    margin-left: 0.4cm;
+}
+
+#c2 {
+    display:block;
+    border: 1px solid red;
+    margin-bottom: 5cm;
+    margin-left: 1.2cm;
+}
+
+#c3 {
+    width: 20cm;
+
+
+    border: 2px solid red;
+    margin-left: -25cm;
+    margin-top: 16cm;
+    margin-bottom: 0.5cm;
+}
