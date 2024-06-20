@@ -59,7 +59,7 @@
 }
 
 #c2 {
-    display:block;
+    display: block;
     border: 1px solid red;
     margin-bottom: 5cm;
     margin-left: 1.2cm;
@@ -73,4 +73,54 @@
     margin-left: -25cm;
     margin-top: 16cm;
     margin-bottom: 0.5cm;
+}
+
+#Marcos {
+    width: 25cm;
+    height: 15cm;
+    border: 5px solid red;
+    margin-top: 1cm;
+    display: flex;
+    margin-left: 2cm;
+
+}
+
+#m1 {
+    width: 450px;
+    height: 500px;
+    border: 5px solid red;
+    position: absolute;
+    margin-left: 3cm;
+    margin-top: 1cm;
+
+
+
+
+
+}
+
+
+
+
+#m2 {
+
+
+    border: 5px solid red;
+    width: 8cm;
+    height: 7cm;
+    
+    font-size: large;
+    position: relative;
+    margin-left: 17cm;
+    margin-top: 4cm;
+    margin-right: 2cm;
+
+
+}
+#SATURDAY{
+    font-family: Courier;
+    font-size: 300%;
+    color: blue;
+    margin-left: 4CM;
+    margin-top: 3cm;
 }
