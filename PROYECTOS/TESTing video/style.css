@@ -1,32 +1,38 @@
-#box1 {width: 20cm;
-height: 15cm;
-border:  5px solid red;
-
-}
-#box2 {
-    width: 10cm;
-    height: {8cm;
-     border: 5px solid green;
-     margin-top: 3cm;
+* {
+    box-sizing: border-box;
+    border: 3px solid red;
 
 
 }
-#plane{
-    align-items: center;
-    
+
+#g {
+
+    height: 10cm;
+    width: 25cm;
+    display:flex;
+    margin: 1cm;
 }
-#box3{
-width: 5cm;
-height: 8cm;
-border: 2px solid red;
-margin-left: 12cm;
-margin-top: -8cm;
-margin-right: 2cm;
 
+#g1 {
 
+    height: 50%;
+    width: 30cm;
 
+    margin: 1cm;
+}
 
+#g2 {
 
+    height: 10cm;
+    width: 15cm;
 
-    
+    margin: 1cm;
+}
 
+#g3 {
+
+    height: 10cm;
+    width: 15cm;
+
+    margin: 1cm;
+}

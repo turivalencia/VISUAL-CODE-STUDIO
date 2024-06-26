@@ -1,6 +1,10 @@
 * {
     background-color: rgb(203, 203, 222);
+    box-sizing: border-box;
+    #div{border: 10px solid red;
+
 }
+
 
 #header {
     font-family: courier;
@@ -14,7 +18,7 @@
 #intro {
     width: 20cm;
     height: 4cm;
-    border: 2px solid red;
+
     margin-top: 3cm;
 
 }
@@ -124,30 +128,29 @@
     color: blue;
     margin-left: 4CM;
     margin-top: 3cm;
+    display: flex;
+    flex-direction: row;
 }
 
 #Saturday1 {
     border: 5px solid red;
     margin-left: 0.2cm;
     margin-right: 0.2cm;
+    display: flex;
 }
 
 #mg {
-    width: 13cm;
-    height: 10cm;
+
     border: 3px solid red;
     margin-left: 1cm;
-    position: relative;
+    display: flex;
     
 }
 
 #tg {
     border: 3px solid red;
-    position: relative;
-    left: 20cm;
-    width: 10cm;
-    height: 15cm;
-    margin-top: 1cm;
+    
+    display: flex;
     
     
 }
@@ -156,6 +159,5 @@
     width: 3cm;
     height: 8cm;
     font-family: cursive;
-    margin-left: 15cm;
-    margin-top: 3cm;
+   
 }
