@@ -1,163 +1,174 @@
 * {
     background-color: rgb(203, 203, 222);
     box-sizing: border-box;
-    #div{border: 10px solid red;
 
-}
+    #div {
+        border: 10px solid red;
 
-
-#header {
-    font-family: courier;
-    font-weight: bold;
-    font-size: 1cm;
-    color: rgb(82, 176, 82);
-    margin-left: 4cm;
-
-}
-
-#intro {
-    width: 20cm;
-    height: 4cm;
-
-    margin-top: 3cm;
-
-}
-
-#pplane {
-    width: auto;
-    height: 8cm;
-    border: 2px solid red;
-    margin-left: 22cm;
-    margin-top: -6.1cm;
-    margin-right: 2cm;
-    display: flex;
-
-}
-
-#plane {
-    text-align: center;
-    font-family: fantasy;
-    font-style: italic;
-    font-display: hand;
-    font-weight: bolder;
-    margin-top: 3cm;
-    margin-left: 10px;
-}
-
-#Cathedral {
-    width: 32cm;
-    height: 20cm;
-    border: 5px solid red;
-    margin-top: 2cm;
-    display: inline-flex;
-
-}
+    }
 
 
-#c1 {
-    display: inline-flex;
-    border: 1px solid red;
+    #header {
+        font-family: courier;
+        font-weight: bold;
+        font-size: 1cm;
+        color: rgb(82, 176, 82);
+        margin-left: 4cm;
 
-    margin-bottom: 5cm;
-    margin-left: 0.4cm;
-}
+    }
 
-#c2 {
-    display: block;
-    border: 1px solid red;
-    margin-bottom: 5cm;
-    margin-left: 1.2cm;
-}
+    #intro {
+        width: 20cm;
+        height: 4cm;
 
-#c3 {
-    width: 20cm;
+        margin-top: 3cm;
 
+    }
 
-    border: 2px solid red;
-    margin-left: -25cm;
-    margin-top: 16cm;
-    margin-bottom: 0.5cm;
-}
+    #pplane {
+        width: auto;
+        height: 8cm;
+        border: 2px solid red;
+        margin-left: 22cm;
+        margin-top: -6.1cm;
+        margin-right: 2cm;
+        display: flex;
 
-#Marcos {
-    width: 25cm;
-    height: 15cm;
-    border: 5px solid red;
-    margin-top: 1cm;
-    display: flex;
-    margin-left: 2cm;
+    }
 
-}
+    #plane {
+        text-align: center;
+        font-family: fantasy;
+        font-style: italic;
+        font-display: hand;
+        font-weight: bolder;
+        margin-top: 3cm;
+        margin-left: 10px;
+    }
 
-#m1 {
-    width: 450px;
-    height: 500px;
-    border: 5px solid red;
-    position: absolute;
-    margin-left: 3cm;
-    margin-top: 1cm;
+    #Cathedral {
+        width: 32cm;
+        height: 20cm;
+        border: 5px solid red;
+        margin-top: 2cm;
+        display: inline-flex;
 
-
-
+    }
 
 
-}
+    #c1 {
+        display: inline-flex;
+        border: 1px solid red;
+
+        margin-bottom: 5cm;
+        margin-left: 0.4cm;
+    }
+
+    #c2 {
+        display: block;
+        border: 1px solid red;
+        margin-bottom: 5cm;
+        margin-left: 1.2cm;
+    }
+
+    #c3 {
+        width: 20cm;
+
+
+        border: 2px solid red;
+        margin-left: -25cm;
+        margin-top: 16cm;
+        margin-bottom: 0.5cm;
+    }
+
+    #Marcos {
+        width: 25cm;
+        height: 15cm;
+        border: 5px solid red;
+        margin-top: 1cm;
+        display: flex;
+        margin-left: 2cm;
+
+    }
+
+    #m1 {
+        width: 450px;
+        height: 500px;
+        border: 5px solid red;
+        position: absolute;
+        margin-left: 3cm;
+        margin-top: 1cm;
 
 
 
 
-#m2 {
+
+    }
 
 
-    border: 5px solid red;
-    width: 8cm;
-    height: 7cm;
-
-    font-size: large;
-    position: relative;
-    margin-left: 17cm;
-    margin-top: 4cm;
-    margin-right: 2cm;
 
 
-}
+    #m2 {
 
-#SATURDAY {
-    font-family: Courier;
-    font-size: 300%;
-    color: blue;
-    margin-left: 4CM;
-    margin-top: 3cm;
-    display: flex;
-    flex-direction: row;
-}
 
-#Saturday1 {
-    border: 5px solid red;
-    margin-left: 0.2cm;
-    margin-right: 0.2cm;
-    display: flex;
-}
+        border: 5px solid red;
+        width: 8cm;
+        height: 7cm;
 
-#mg {
+        font-size: large;
+        position: relative;
+        margin-left: 17cm;
+        margin-top: 4cm;
+        margin-right: 2cm;
 
-    border: 3px solid red;
-    margin-left: 1cm;
-    display: flex;
+
+    }
+
+    #SATURDAY {
+        font-family: Courier;
+        font-size: 300%;
+        color: blue;
+        margin-left: 1CM;
+        margin-top: 3cm;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Saturday1 {
+        width: 30cm;
+        height: 12cm;
+        border: 3px solid red;
+        margin-left: 0.2cm;
+        margin-right: 0.2cm;
+        display: flex;
+    }
+
+    #mg {
+
+        border: 3px solid red;
+
+        display: flex;
+
+    }
+
+    #tg {
+        border: 3px solid red;
+
+        display: flex;
+
+
+    }
+
+    #g1 {
+        border: 3px solid red;
+        padding: 10px;
+        padding-top: 20px;
     
-}
 
-#tg {
-    border: 3px solid red;
-    
-    display: flex;
-    
-    
-}
-#g1{ border: 3px solid red;
-    
-    width: 3cm;
-    height: 8cm;
-    font-family: cursive;
-   
-}
+        width: 3cm;
+        height: 12cm;
+        font-family: cursive;
+        font-size: 70%;
+        display:sticky;
+
+    }
