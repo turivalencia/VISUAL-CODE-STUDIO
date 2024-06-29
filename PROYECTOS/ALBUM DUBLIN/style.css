@@ -204,9 +204,11 @@
         width: 9cm;
         height: 2cm;
         padding: 10px;
-        font-family: cursive; font:bold;
+        font-family: cursive;
+        font-style:italic;
         font-size: 130%;
-        border-radius: 10%;
+        border-radius: 15px;
+        
     }
     #vf{
         margin-top: 0.5cm;
@@ -217,7 +219,7 @@
         position: relative;
     }
     #ta{
-        border: 3px solid blue;
+        border: 3px solid blue; border-radius: 10px;
         position: absolute;
         left: 25cm;
         margin-top: -13.6cm;
