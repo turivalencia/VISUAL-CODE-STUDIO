@@ -81,26 +81,34 @@
         margin-bottom: 0.5cm;
     }
 
+    #v1 {
+
+        height: fit-content;
+        border: 2px solid red;
+        display: block;
+        width: fit-content;
+        margin-top: 1cm;
+
+    }
+
+
     #Marcos {
         width: 25cm;
         height: 15cm;
         border: 5px solid red;
-        margin-top: 1cm;
+        margin-top: -17cm;
         display: flex;
         margin-left: 2cm;
 
     }
 
     #m1 {
-        width: 450px;
-        height: 500px;
-        border: 5px solid red;
+        width: fit-content;
+        height: fit-content;
+        border: 2px solid black;
         position: absolute;
-        margin-left: 3cm;
-        margin-top: 1cm;
-
-
-
+        padding: 5px;
+        padding-bottom: 1px;
 
 
     }
@@ -111,15 +119,19 @@
     #m2 {
 
 
-        border: 5px solid red;
-        width: 8cm;
-        height: 7cm;
+        border: 1px solid black;
+        width: 5cm;
+        height: 4cm;
 
-        font-size: large;
+        font-size: medium;
         position: relative;
-        margin-left: 17cm;
-        margin-top: 4cm;
-        margin-right: 2cm;
+        margin-left: 22cm;
+        margin-top: 0cm;
+        padding: 10px;
+        font-size: 87%;
+        margin-right: -2cm;
+        padding-top: 1px;
+
 
 
     }
@@ -135,40 +147,44 @@
     }
 
     #Saturday1 {
-        width: 30cm;
-        height: 12cm;
+        width: 27.5cm;
+        height: 12.3cm;
         border: 3px solid red;
-        margin-left: 0.2cm;
+        margin-left: 1.5cm;
         margin-right: 0.2cm;
         display: flex;
+        padding: 3px;
+        padding-bottom: 0px;
+
     }
 
     #mg {
 
-        border: 3px solid red;
+
+        height: fit-content;
 
         display: flex;
 
     }
 
     #tg {
-        border: 3px solid red;
+        border: 2px solid red;
 
         display: flex;
+        height: fit-content;
 
 
     }
 
     #g1 {
-        border: 3px solid red;
+
         padding: 10px;
         padding-top: 20px;
-    
+
 
         width: 3cm;
-        height: 12cm;
-        font-family: cursive;
-        font-size: 70%;
-        display:sticky;
+        height: fit-content font-family: cursive;
+        font-size: 87%;
+        display: sticky;
 
     }
