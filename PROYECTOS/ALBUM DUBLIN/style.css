@@ -230,3 +230,98 @@
         padding: 10px;
         
     }
+    #bike{
+        border: 5px solid rgb(103, 132, 103);
+        padding: 2px;
+        background-color: red;
+        width: 32cm;
+        margin-top: 1.5cm;
+        height: 30cm;
+        display: flex;
+        flex-direction:row;
+        
+    }
+    #s1{
+        display: flex;
+        border: 2px solid red;
+        border-radius: 10px;
+        margin-left: 1cm;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 1cm;
+        padding: 2px;
+        background-color: red;
+        
+        
+    }
+    #s2{
+        display: flex;
+        border: 2px solid red;
+        margin-left: 1cm;
+        margin-top: -0.1cm;
+        margin-right: 0cm;
+        border-radius: 10px;
+        height: fit-content;
+        width: fit-content;
+        padding: 2px;
+        background-color: red;
+    
+        
+    }
+    #s3{
+        position: absolute;
+        margin-top: 17cm;
+        border: 2px solid red;
+        border-radius: 10px;
+        height: fit-content;
+        width: fit-content;
+        padding: 2px;
+        background-color: red;
+        margin-left: -1cm;
+        
+
+    }
+    #s4{
+        position: absolute;
+        margin-top: 14.3cm;
+        margin-left: 12.2cm;
+        border: 2px solid red;
+        border-radius: 15px;
+        height:fit-content;
+        width:fit-content;
+        padding: 2px;
+        background-color: red;}
+        #gato{
+            position: absolute;
+            margin-left: 1cm;
+            margin-top: 6.5cm;
+            border-radius: 10px;
+            text-align:center;
+            padding-top: 6px;
+            width: 2cm;
+            height: 1cm;
+            border: 2px solid red;
+        
+
+        }
+        #co{
+            position: absolute;
+            margin-left: 1cm;
+            margin-top: 13cm;
+            border-radius: 10px;
+            text-align:center;
+            padding: 8px;
+            width: 10cm;
+            height: 3.5cm;
+            border: 2px solid red;
+        
+
+        }
+        
+        
+        
+        
+
+
+
+    
