@@ -188,3 +188,43 @@
         display: sticky;
 
     }
+    #sunday{
+        border: 5px solid rgb(103, 132, 103);
+        display: flex;
+        flex-direction:column;
+        width: 32cm;
+        height: 15cm;
+        margin-top: 1cm;
+    }
+    #st{
+        border: 3px solid red;
+        position: relative;
+        margin-top: 0.7cm;
+        margin-left: 1cm;
+        width: 9cm;
+        height: 2cm;
+        padding: 10px;
+        font-family: cursive; font:bold;
+        font-size: 130%;
+        border-radius: 10%;
+    }
+    #vf{
+        margin-top: 0.5cm;
+        margin-left: 1cm;
+        border: 3px solid black;
+        width:fit-content;
+        height:fit-content;
+        position: relative;
+    }
+    #ta{
+        border: 3px solid blue;
+        position: absolute;
+        left: 25cm;
+        margin-top: -13.6cm;
+        width: 10cm;
+        margin-right: 1cm;
+        margin-left: -4.8cm;
+        height: 12cm;
+        padding: 10px;
+        
+    }
