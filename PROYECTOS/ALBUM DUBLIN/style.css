@@ -16,59 +16,93 @@
         margin-left: 4cm;
 
     }
+  
+  
 
     #intro {
-        width: 20cm;
-        height: 4cm;
+
+        padding: 4px;
+        border: 2px solid black;
+        border-radius: 10px;
+
+        width: 30cm;
+        height: 5cm;
 
         margin-top: 3cm;
+        display: flex;
+        flex-direction: column;
+        background-color:  rgb(82, 176, 82);;
 
     }
+    #in {
 
-    #pplane {
-        width: auto;
-        height: 8cm;
-        border: 2px solid red;
-        margin-left: 22cm;
-        margin-top: -6.1cm;
-        margin-right: 2cm;
+        padding: 4px;
+        border: 2px solid rgb(46, 14, 14);
+        border-radius: 10px;
+
+        width: 15cm;
+        height: 4cm;
+
+        margin-top: 0.3cm;
+        margin-left: 0.5cm;
         display: flex;
 
     }
 
+
+
     #plane {
-        text-align: center;
-        font-family: fantasy;
-        font-style: italic;
-        font-display: hand;
-        font-weight: bolder;
-        margin-top: 3cm;
-        margin-left: 10px;
+        width: 6cm;
+        height: 6cm;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-left: 22cm;
+        margin-top: -0.7cm;
+        margin-right: 2cm;
+        display: flex;
+        position:absolute;
+        background-color: yellow;
+
     }
 
+
+
+
     #Cathedral {
+        border: 2px solid red;
         width: 32cm;
         height: 20cm;
-        border: 5px solid red;
+
         margin-top: 2cm;
         display: inline-flex;
+        background-color: rgb(31, 31, 66);
 
     }
 
 
     #c1 {
+        margin-top: 1cm;
         display: inline-flex;
-        border: 1px solid red;
+
 
         margin-bottom: 5cm;
         margin-left: 0.4cm;
+        width: fit-content;
+        height: fit-content;
+
     }
 
     #c2 {
         display: block;
-        border: 1px solid red;
+
         margin-bottom: 5cm;
-        margin-left: 1.2cm;
+        margin-left: 0.5cm;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 1cm;
+        margin-right: 1cm;
+        background-color: rgb(31, 31, 66);
+
     }
 
     #c3 {
@@ -76,9 +110,13 @@
 
 
         border: 2px solid red;
+        border-radius: 10px;
         margin-left: -25cm;
-        margin-top: 16cm;
-        margin-bottom: 0.5cm;
+        margin-top: 15.3cm;
+        margin-bottom: 1cm;
+        height: 3cm;
+        font-size: 90%;
+        padding: 5px;
     }
 
     #v1 {
@@ -168,7 +206,7 @@
     }
 
     #tg {
-        border: 2px solid red;
+        
 
         display: flex;
         height: fit-content;
@@ -188,15 +226,17 @@
         display: sticky;
 
     }
-    #sunday{
+
+    #sunday {
         border: 5px solid rgb(103, 132, 103);
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         width: 32cm;
         height: 15cm;
         margin-top: 1cm;
     }
-    #st{
+
+    #st {
         border: 3px solid red;
         position: relative;
         margin-top: 0.7cm;
@@ -205,21 +245,24 @@
         height: 2cm;
         padding: 10px;
         font-family: cursive;
-        font-style:italic;
+        font-style: italic;
         font-size: 130%;
         border-radius: 15px;
-        
+
     }
-    #vf{
+
+    #vf {
         margin-top: 0.5cm;
         margin-left: 1cm;
         border: 3px solid black;
-        width:fit-content;
-        height:fit-content;
+        width: fit-content;
+        height: fit-content;
         position: relative;
     }
-    #ta{
-        border: 3px solid blue; border-radius: 10px;
+
+    #ta {
+        border: 3px solid blue;
+        border-radius: 10px;
         position: absolute;
         left: 25cm;
         margin-top: -13.6cm;
@@ -228,9 +271,10 @@
         margin-left: -4.8cm;
         height: 12cm;
         padding: 10px;
-        
+
     }
-    #bike{
+
+    #bike {
         border: 5px solid rgb(103, 132, 103);
         padding: 2px;
         background-color: red;
@@ -238,10 +282,11 @@
         margin-top: 1.5cm;
         height: 30cm;
         display: flex;
-        flex-direction:row;
-        
+        flex-direction: row;
+
     }
-    #s1{
+
+    #s1 {
         display: flex;
         border: 2px solid red;
         border-radius: 10px;
@@ -251,10 +296,11 @@
         margin-top: 1cm;
         padding: 2px;
         background-color: red;
-        
-        
+
+
     }
-    #s2{
+
+    #s2 {
         display: flex;
         border: 2px solid red;
         margin-left: 1cm;
@@ -265,10 +311,11 @@
         width: fit-content;
         padding: 2px;
         background-color: red;
-    
-        
+
+
     }
-    #s3{
+
+    #s3 {
         position: absolute;
         margin-top: 17cm;
         border: 2px solid red;
@@ -278,50 +325,46 @@
         padding: 2px;
         background-color: red;
         margin-left: -1cm;
-        
+
 
     }
-    #s4{
+
+    #s4 {
         position: absolute;
         margin-top: 14.3cm;
         margin-left: 12.2cm;
         border: 2px solid red;
         border-radius: 15px;
-        height:fit-content;
-        width:fit-content;
+        height: fit-content;
+        width: fit-content;
         padding: 2px;
-        background-color: red;}
-        #gato{
-            position: absolute;
-            margin-left: 1cm;
-            margin-top: 6.5cm;
-            border-radius: 10px;
-            text-align:center;
-            padding-top: 6px;
-            width: 2cm;
-            height: 1cm;
-            border: 2px solid red;
-        
+        background-color: red;
+    }
 
-        }
-        #co{
-            position: absolute;
-            margin-left: 1cm;
-            margin-top: 13cm;
-            border-radius: 10px;
-            text-align:center;
-            padding: 8px;
-            width: 10cm;
-            height: 3.5cm;
-            border: 2px solid red;
-        
-
-        }
-        
-        
-        
-        
+    #gato {
+        position: absolute;
+        margin-left: 1cm;
+        margin-top: 6.5cm;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 6px;
+        width: 2cm;
+        height: 1cm;
+        border: 2px solid red;
 
 
+    }
 
-    
+    #co {
+        position: absolute;
+        margin-left: 1cm;
+        margin-top: 13cm;
+        border-radius: 10px;
+        text-align: center;
+        padding: 8px;
+        width: 10cm;
+        height: 3.5cm;
+        border: 2px solid red;
+
+
+    }
