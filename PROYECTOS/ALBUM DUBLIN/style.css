@@ -16,8 +16,8 @@
         margin-left: 4cm;
 
     }
-  
-  
+
+
 
     #intro {
 
@@ -31,9 +31,11 @@
         margin-top: 3cm;
         display: flex;
         flex-direction: column;
-        background-color:  rgb(82, 176, 82);;
+        background-color: rgb(82, 176, 82);
+        ;
 
     }
+
     #in {
 
         padding: 4px;
@@ -60,7 +62,7 @@
         margin-top: -0.7cm;
         margin-right: 2cm;
         display: flex;
-        position:absolute;
+        position: absolute;
         background-color: yellow;
 
     }
@@ -206,7 +208,7 @@
     }
 
     #tg {
-        
+
 
         display: flex;
         height: fit-content;
@@ -278,7 +280,7 @@
         border: 5px solid rgb(103, 132, 103);
         padding: 2px;
         background-color: red;
-        width: 32cm;
+        width: 33.2cm;
         margin-top: 1.5cm;
         height: 30cm;
         display: flex;
@@ -303,7 +305,7 @@
     #s2 {
         display: flex;
         border: 2px solid red;
-        margin-left: 1cm;
+        margin-left: 0.8cm;
         margin-top: -0.1cm;
         margin-right: 0cm;
         border-radius: 10px;
@@ -365,6 +367,41 @@
         width: 10cm;
         height: 3.5cm;
         border: 2px solid red;
+    }
 
+
+    #caras {
+        width: 32cm;
+        height: 20cm;
+        border: 6px solid red;
+        
+        border-radius: 10px;
+        margin-top: 1.5cm;
+        display: flex;
+        flex-direction: row;
+        background-color:rgb(52, 97, 244)
+    }
+    #c1{display: flex;
+        
+        margin-left: 0.8cm;
+        margin-top: 1cm;
+        margin-right: 0cm;
+        border-radius: 5px;
+    
+    
+    
+
+
+
+    }#c2{display: flex;
+        
+        margin-left: 0.8cm;
+        margin-top: 1cm;
+        margin-right: 0cm;
+        border-radius: 10px;
+        height: fit-content;
+        width: fit-content;
+        padding: 2px;
+        background-color: red;
 
     }
