@@ -374,27 +374,29 @@
         width: 32cm;
         height: 20cm;
         border: 6px solid red;
-        
+
         border-radius: 10px;
         margin-top: 1.5cm;
         display: flex;
         flex-direction: row;
-        background-color:rgb(52, 97, 244)
+        background-color: rgb(52, 97, 244)
     }
-    #c1{display: flex;
-        
+
+    #c1 {
+        display: flex;
+
         margin-left: 0.8cm;
         margin-top: 1cm;
         margin-right: 0cm;
         border-radius: 5px;
-    
-    
-    
 
 
 
-    }#c2{display: flex;
-        
+    }
+
+    #c2 {
+        display: flex;
+
         margin-left: 0.8cm;
         margin-top: 1cm;
         margin-right: 0cm;
@@ -403,5 +405,34 @@
         width: fit-content;
         padding: 2px;
         background-color: red;
+
+    }
+
+    #ID {
+        position: absolute;
+        margin-left: 4.5cm;
+        margin-top: 7cm;
+
+        border-radius: 10px;
+        width: 2.5cm;
+        height: 1.5cm;
+
+        padding: 10px;
+        border: 1px solid red;
+        font-size: 98%;
+    }
+
+    #c3 {
+        position: absolute;
+        margin-left: 13cm;
+        margin-top: 14.5cm;
+        width: 12cm;
+        height: 3.5cm;
+        font-size: 110%;
+
+        border-radius: 10px;
+    
+        padding: 10px;
+        background-color: ;
 
     }
