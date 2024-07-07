@@ -524,14 +524,60 @@
     #s3 {
         position: absolute;
         width: 14cm;
-        height: 4cm;
+        height: 3.5cm;
          padding: 10px;
         
         margin-left: 16cm;
         margin-top: 2cm;
         border: 0.1px solid black;
         border-radius: 3px;
-        background-color: rgb(236, 236, 162)
-    
-        
+        background-color: rgb(236, 236, 162)  
     }
+    #pota{
+        display: flex;
+        margin-top: 2cm;
+        border: 5px solid red;
+        border-radius: 10px;
+        width: 18cm;
+        height: 22cm;
+        margin-left: 3cm;
+        background-color:  rgb(241, 241, 219) ;
+    }
+    #p{ margin-left: 1.6cm;
+        border: 2px solid black;
+        border-radius: 3px;
+        height: fit-content;
+        margin-top: 0.9cm;
+        background-color: black;
+
+    }
+    #pt{position: absolute;
+        margin-left: 10.1cm;
+        width: 4.4cm;
+        border: 2px solid black;
+        border-radius: 3px;
+         height: 3cm;
+        margin-top: 3.2cm;
+        border-radius: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 170%;
+        padding: 20px;
+    
+    }
+    #pe{position: absolute;
+        margin-left: 20cm;
+        width: 8cm;
+        border: 2px solid blue;
+        border-radius: 3px;
+         height: 12cm;
+        margin-top: 3.2cm;
+        border-radius: 10px;
+        font-family: cursive;
+        font-size: 100%;
+        padding: 10px;
+    
+    }
+
+
+
+
