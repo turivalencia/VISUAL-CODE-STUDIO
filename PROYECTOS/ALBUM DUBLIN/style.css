@@ -76,50 +76,55 @@
         height: 20cm;
 
         margin-top: 2cm;
-        display: inline-flex;
+        display: flex;
         background-color: rgb(31, 31, 66);
+        flex-direction: row;
 
     }
 
 
     #c1 {
         margin-top: 1cm;
-        display: inline-flex;
+        position: relative;
+        display:flex;
 
 
         margin-bottom: 5cm;
-        margin-left: 0.4cm;
+        margin-left: 0.4:cm;
         width: fit-content;
         height: fit-content;
 
     }
 
     #c2 {
-        display: block;
+        display: flex;
+        position: relative;
 
         margin-bottom: 5cm;
         margin-left: 0.5cm;
         width: fit-content;
         height: fit-content;
         margin-top: 1cm;
-        margin-right: 1cm;
+        margin-right: 0.2cm;
         background-color: rgb(31, 31, 66);
 
     }
+    #c4{ position: absolute;
+     width: 22cm;
+     height: 4cm;
+     margin-top: 15.5cm;
+     flex-direction: row;
+     margin-left: 5cm;
+     border: 3px solid red;
+     border-radius: 10px;
+     padding: 10px;
 
-    #c3 {
-        width: 20cm;
 
 
-        border: 2px solid red;
-        border-radius: 10px;
-        margin-left: -25cm;
-        margin-top: 15.3cm;
-        margin-bottom: 1cm;
-        height: 3cm;
-        font-size: 90%;
-        padding: 5px;
+
     }
+
+    
 
     #v1 {
 
@@ -231,6 +236,7 @@
 
     #sunday {
         border: 5px solid rgb(103, 132, 103);
+        border-radius: 10px;
         display: flex;
         flex-direction: column;
         width: 32cm;
@@ -277,9 +283,9 @@
     }
 
     #bike {
-        border: 5px solid rgb(103, 132, 103);
+        
         padding: 2px;
-        background-color: red;
+        background-color:red;
         width: 33.2cm;
         margin-top: 1.5cm;
         height: 30cm;
@@ -373,7 +379,7 @@
     #caras {
         width: 32cm;
         height: 20cm;
-        border: 6px solid red;
+        border: 2px solid red;
 
         border-radius: 10px;
         margin-top: 1.5cm;
@@ -396,15 +402,15 @@
 
     #c2 {
         display: flex;
+        
 
-        margin-left: 0.8cm;
+        
         margin-top: 1cm;
         margin-right: 0cm;
-        border-radius: 10px;
-        height: fit-content;
-        width: fit-content;
-        padding: 2px;
-        background-color: red;
+        border-radius: 5px;
+       
+    
+        
 
     }
 
@@ -436,3 +442,38 @@
         background-color: ;
 
     }
+
+
+    #cliff{
+        display: flex;
+        width: 18.5cm;
+        height: 25cm;
+        border: 5px solid white;
+        border-radius: 10px;
+        margin-top: 1.5cm;
+        margin-left: 5.5CM;
+        flex-direction: row;
+        background-color: rgb(111, 97, 125);
+
+    }
+    #tc{
+        position: absolute;
+        overflow: scroll; scrollbar-width: 150%;
+        width: 7cm;
+        height: 11cm;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 4cm;
+        margin-left: 17cm;
+        font-family: cursive;
+        font-size: 110%;
+        padding: 15PX;
+    }
+    #vc{
+        position: relative;
+        overflow:hidden; 
+       
+
+    
+    }
+    
