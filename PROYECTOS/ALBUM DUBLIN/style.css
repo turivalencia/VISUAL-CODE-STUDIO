@@ -86,7 +86,7 @@
     #c1 {
         margin-top: 1cm;
         position: relative;
-        display:flex;
+        display: flex;
 
 
         margin-bottom: 5cm;
@@ -109,22 +109,24 @@
         background-color: rgb(31, 31, 66);
 
     }
-    #c4{ position: absolute;
-     width: 22cm;
-     height: 4cm;
-     margin-top: 15.5cm;
-     flex-direction: row;
-     margin-left: 5cm;
-     border: 3px solid red;
-     border-radius: 10px;
-     padding: 10px;
+
+    #c4 {
+        position: absolute;
+        width: 22cm;
+        height: 4cm;
+        margin-top: 15.5cm;
+        flex-direction: row;
+        margin-left: 5cm;
+        border: 3px solid red;
+        border-radius: 10px;
+        padding: 10px;
 
 
 
 
     }
 
-    
+
 
     #v1 {
 
@@ -283,9 +285,9 @@
     }
 
     #bike {
-        
+
         padding: 2px;
-        background-color:red;
+        background-color: red;
         width: 33.2cm;
         margin-top: 1.5cm;
         height: 30cm;
@@ -294,7 +296,7 @@
 
     }
 
-    #s1 {
+    #b1 {
         display: flex;
         border: 2px solid red;
         border-radius: 10px;
@@ -308,7 +310,7 @@
 
     }
 
-    #s2 {
+    #b2 {
         display: flex;
         border: 2px solid red;
         margin-left: 0.8cm;
@@ -323,7 +325,7 @@
 
     }
 
-    #s3 {
+    #b3 {
         position: absolute;
         margin-top: 17cm;
         border: 2px solid red;
@@ -337,7 +339,7 @@
 
     }
 
-    #s4 {
+    #b4 {
         position: absolute;
         margin-top: 14.3cm;
         margin-left: 12.2cm;
@@ -402,15 +404,15 @@
 
     #c2 {
         display: flex;
-        
 
-        
+
+
         margin-top: 1cm;
         margin-right: 0cm;
         border-radius: 5px;
-       
-    
-        
+
+
+
 
     }
 
@@ -437,14 +439,14 @@
         font-size: 110%;
 
         border-radius: 10px;
-    
+
         padding: 10px;
-        background-color: ;
+        background-color:
 
     }
 
 
-    #cliff{
+    #cliff {
         display: flex;
         width: 18.5cm;
         height: 25cm;
@@ -456,9 +458,11 @@
         background-color: rgb(111, 97, 125);
 
     }
-    #tc{
+
+    #tc {
         position: absolute;
-        overflow: scroll; scrollbar-width: 150%;
+        overflow: scroll;
+        scrollbar-width: 150%;
         width: 7cm;
         height: 11cm;
         border: 2px solid black;
@@ -469,11 +473,65 @@
         font-size: 110%;
         padding: 15PX;
     }
-    #vc{
-        position: relative;
-        overflow:hidden; 
-       
 
-    
+    #vc {
+        position: relative;
+        overflow: hidden;
+
+
+
     }
+
+    #some {
+        display: flex;
+        flex-direction: row;
+        width: 31cm;
+        height: 25.5cm;
+        border: 5px solid red;
+        border-radius: 10px;
+        margin-top: 1.5cm;
+        overflow: hidden;
+        margin-left: 1CM;
+
+    }
+
+    #video {
+        position: flex;
+
+    }
+
+    #s1 {
+        position: absolute;
+        margin: 1cm;
+        border: 3px solid rgb(32, 10, 77);
+        border-radius: 3px;
+        width: fit-content;
+        background-color:  rgb(32, 10, 77);
+
+    }
+
+    #s4 {
+        position: absolute;
+        width: fit-content;
+
+        margin-left: 18cm;
+        margin-top: 10cm;
+        border: 3.5px solid white;
+        border-radius: 3px;
+        width: fit-content;
+        background-color: white;
+    }
+    #s3 {
+        position: absolute;
+        width: 14cm;
+        height: 4cm;
+         padding: 10px;
+        
+        margin-left: 16cm;
+        margin-top: 2cm;
+        border: 0.1px solid black;
+        border-radius: 3px;
+        background-color: rgb(236, 236, 162)
     
+        
+    }
