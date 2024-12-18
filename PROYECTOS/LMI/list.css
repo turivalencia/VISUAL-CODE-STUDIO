@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+    background-color: brown;
+    text-transform: uppercase;
+    text-align: center;
+    border: 4px dashed black;
+
+}
+
+body {
+    background-color: orangered;
+    font: 12pt "tahoma";
+    border: grey 6px outset;
+    padding: 10%;
+    margin: 5%;
+}
+
+
+h2 {
+    color: black;
+    background-color: white;
+    border: 5px dotted brown;
+    
+    text-align: right;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding-right: 5px;
+
+
+
+}
+
+body>ul {
+    border: 5px dotted white;
+    background-color: brown;
+    /* this rule is just for the fisrt ul wich is descendant of the body 
+ ul{style} will affect all the ul in the doc*/
+    border-top: none;
+    margin-top: 0px;
+    list-style: square;
+}
+
+ol {
+    color: brown;
+    background-color: black;
+    border-top-style:none ;
+    border-top: none;
+    border: 5px dotted white;
+    margin-top: 0px;
+    
+    padding-top: 5px;
+
+}
