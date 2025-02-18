@@ -1,0 +1,40 @@
+body {
+    margin: 7%;
+
+    font: 16pt tahoma;
+    border: 3px solid black;
+
+
+
+}
+
+header {
+    background-color: pink;
+    font-size: 150%;
+    font-weight: bolder;
+    margin: 10px;
+
+}
+
+nav {
+    background-color: yellow;
+    color: blue;
+    margin: 10px;
+
+
+}
+
+section {
+    background-color: blue;
+    color: white;
+    margin: 25px;
+
+
+}
+
+footer {
+    background-color: white; color: black;
+    margin: 10px;
+}
+section header{background-color: white; color: darkblue;}
+section footer{background-color: white; color: darkblue;}
