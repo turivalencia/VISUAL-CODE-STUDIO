@@ -1,0 +1,59 @@
+aside {
+    color: white;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(175, 150, 150);
+    position: absolute;
+
+
+
+
+}
+
+section#picture {
+    position: relative;
+    left: 12%;
+    right: 10%;
+    border: 5px solid black;
+    width: 30%;
+    overflow: hidden;}
+
+
+    section#text{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+        position: relative;
+        
+        left: 50%;
+        border: 5px solid red;
+        width: 400px;
+        overflow: hidden;
+        bottom: 400px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+}
