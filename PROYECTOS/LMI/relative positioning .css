@@ -1,41 +1,22 @@
-aside {
-    color: white;
-    width: 10%;
-    height: 100%;
-    background-color: rgb(175, 150, 150);
-    position: absolute;
+body h {
 
 
-
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-left: 38%;
+    margin-bottom: 15%;
 }
 
-section#picture {
+h1 {
+    font-size: 2em;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px  blue;
+    
+    background-color: rgb(165, 193, 218);
+    text-align: center;
     position: relative;
-    left: 12%;
-    right: 10%;
-    border: 5px solid black;
-    width: 30%;
-    overflow: hidden;}
-
-
-    section#text{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding: 10px;
-        position: relative;
-        
-        left: 50%;
-        border: 5px solid red;
-        width: 400px;
-        overflow: hidden;
-        bottom: 400px;
-
-
-    }
-
-
-
-
+    overflow: hidden;
 
 
 
@@ -43,15 +24,20 @@ section#picture {
 
 
 }
+h2 {
+    width: 90%;
+    
+    border: 2px solid blue;
+    font-size: 1em;
+    position: absolute;
+    margin-top: -3%;
+    padding: 40px;
+    margin-left: 10%;
+    visibility:visible;
+    border-top: 2px solid blue ;
 
+    
 
-
-
-
-
-
-
-}
 
 
 
