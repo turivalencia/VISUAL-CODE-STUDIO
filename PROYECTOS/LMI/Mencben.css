@@ -6,19 +6,35 @@ body{
 }
 h1{font-size: 3em;
     text-align: left;
+    
 
 
 }
 aside{
     margin-left: 5%;
     position: absolute;
+    top: 6em;
+    height: auto;
+    width: 15em;
 
 
 }
 
 section{
-    position: relative;
-    margin-left: 200px;
+    position: absolute;
+    top: 6em;
+    bottom: 0;
+    left: 13em;
+    right: 0;
+    
+
 }
+article{
+    border: 2px solid red;
+    width: 30%;
+    
+    
+}
+
 
    
