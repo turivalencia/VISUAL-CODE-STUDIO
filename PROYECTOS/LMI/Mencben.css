@@ -1,0 +1,24 @@
+body{
+
+    background-color: rgb(247, 228, 198) ;
+    font-family: sans-serif;
+    color: rgb(120, 197, 120);
+}
+h1{font-size: 3em;
+    text-align: left;
+
+
+}
+aside{
+    margin-left: 5%;
+    position: absolute;
+
+
+}
+
+section{
+    position: relative;
+    margin-left: 200px;
+}
+
+   

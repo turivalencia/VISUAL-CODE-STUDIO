@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     position: relative;
     overflow: hidden;
+    z-index: 2;
 
 
 
@@ -25,16 +26,19 @@ h1 {
 
 }
 h2 {
-    width: 90%;
+    width: 75%;
     
     border: 2px solid blue;
-    font-size: 1em;
+    font-size: 1.2em;
     position: absolute;
     margin-top: -3%;
     padding: 40px;
     margin-left: 10%;
     visibility:visible;
     border-top: 2px solid blue ;
+    z-index: 1;
+    margin-right: 40%;
+
 
     
 

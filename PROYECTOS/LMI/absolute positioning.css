@@ -36,6 +36,7 @@ h3 {
   background-color: hwb(60 50% 0%);
   text-align: left;
   font-family: sans-serif;
+  z-index: 4;
 
 }
 
@@ -49,6 +50,7 @@ h4 {
   background-color: hwb(180 80% 0%);
   text-align: right;
   font-family: sans-serif;
+  z-index: 3;
 }
 
     
@@ -63,6 +65,7 @@ h5 {
     border: hwb(120 20% 50%)4px solid;
     background-color: hwb(120 50% 0%);
     text-align: center;
+    z-index: 1;
 
 
 
@@ -78,6 +81,7 @@ h6 {
   border: hwb(300 65% 25%) 4px solid;
   background-color: hwb(300 90% 0%);
   text-align: left;
+  z-index: 5;
     
 
 }
