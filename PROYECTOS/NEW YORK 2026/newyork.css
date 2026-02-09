@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgb(222, 231, 239);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: medium;
+    margin: 15px;
+ç
+}
+h1{
+   text-align: center;
+   color: black ;
+}
+div{
+   width: 75%;
+   height: 200px;
+   margin: 20px;
+    background-color: rgb(169, 142, 142);
+   border-width: 1px;
+   padding: 15px;
+   border-radius: 5%;
+}
