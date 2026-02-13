@@ -31,3 +31,38 @@ div {
     border-style: solid;
     
 }
+
+#to-see{
+    height: 300px;
+
+
+
+}
+#hotel{width: 40%;height: 900px;
+    color: bblue;
+    text-decoration: none;
+}
+#plane{
+    width: 40%;
+    height: 120px;
+    margin: 30px;
+    background-color: rgb(169, 142, 142);
+    border-width: 2px;
+    padding: 15px;
+    border-radius: 5%;
+    margin-left: 150px;
+    border-color: rgb(86, 43, 203);
+    border-style: solid;
+}
+a:link:visited {
+    color: rgb(180, 129, 47);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(212, 223, 226);
+    text-decoration: underline;
+}
+a.active {
+    color: rgb(179, 203, 43);
+    text-decoration: none;
+}
