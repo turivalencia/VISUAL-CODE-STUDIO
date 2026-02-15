@@ -4,8 +4,18 @@ body {
     font-style: italic;
     font-size: medium;
     margin: 15px;
-    background-image: url(https://idsb.tmgrup.com.tr/ly/uploads/images/2024/04/09/thumbs/800x531/323101.jpg?v=1712662133);
-    background-size: cover;
+    background-image: url(https://idsb.tmgrup.com.tr/ly/uploads/images/2024/04/09/thumbs/800x531/323101.jpg?v=1712662133) ;
+    
+    
+    background-size: contain;
+    background-attachment: scroll;
+    
+
+    
+    
+    
+    
+    
     
     color: black;
     margin-bottom: 80px;
@@ -45,6 +55,18 @@ div {
 #plane{
     width: 40%;
     height: 120px;
+    margin: 30px;
+    background-color: rgb(169, 142, 142);
+    border-width: 2px;
+    padding: 15px;
+    border-radius: 5%;
+    margin-left: 150px;
+    border-color: rgb(86, 43, 203);
+    border-style: solid;
+}
+#transport{
+    width: 40%;
+    height: 750px;
     margin: 30px;
     background-color: rgb(169, 142, 142);
     border-width: 2px;
