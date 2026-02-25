@@ -44,6 +44,7 @@ aside {
     border-radius: 5%;
     border-width: 3px;
     width: 13%;
+    
 
 
 
@@ -67,7 +68,7 @@ main {
 
 
 article {
-    background-color: rgb(200, 194, 235);
+    background-image: url(https://www.newyorkando.com/wp-content/uploads/sites/7/2023/08/Mapa-de-Nueva-York-Newyorkando-M-768x757.jpg);
     display: absolute;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +87,7 @@ article {
 }
 
 section {
-    background-color: rgb(216, 216, 203);
+    background-color: rgb(180, 191, 209);
 
 
     margin: 5%;
@@ -107,3 +108,18 @@ section {
 
     border-color: black;
 }
+#dayone {
+    height: 200px;
+    
+    
+}
+#daytwo {
+    height: 800px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/94/Empire_State_building_19.JPG);
+    background-size: cover;
+    color: white;
+}
+
+    
+    
+     
