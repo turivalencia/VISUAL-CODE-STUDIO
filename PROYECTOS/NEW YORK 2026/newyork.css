@@ -69,14 +69,14 @@ div {
 
 #hotel {
     width: 40%;
-    height: 900px;
+    height:fit-content;
     color: bblue;
     text-decoration: none;
 }
 
 #plane {
     width: 40%;
-    height: 120px;
+    height: fit-content;
     margin: 30px;
     background-color: rgb(169, 142, 142);
     border-width: 2px;
@@ -89,7 +89,7 @@ div {
 
 #transport {
     width: 40%;
-    height: 750px;
+    height: fit-content;
     margin: 30px;
     background-color: rgb(169, 142, 142);
     border-width: 2px;
