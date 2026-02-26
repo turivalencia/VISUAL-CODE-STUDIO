@@ -116,15 +116,18 @@ section {
 }
 #daytwo {
     height: 900px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/94/Empire_State_building_19.JPG);
+    background-image: url(https://serenaslenses.net/wp-content/uploads/2023/12/View-of-Empire-State-Building-from-the-street.jpghttps://serenaslenses.net/wp-content/uploads/2023/12/View-of-Empire-State-Building-from-the-street.jpg);
     background-size: cover;
+    
     color: white;
+}
+#centralpark {
+    background-image: url(https://static.anuevayork.com/wp-content/uploads/2020/06/13180423/Que-ver-en-Central-Park-Rutas-a-pie-y-en-bicicleta.jpg.webp);
+    background-size: cover;
 }
 #daythree {
     height: 1200px;
-    background-image: url(https://dynamic-media.tacdn.com/media/photo-o/2e/b8/4e/07/caption.jpg?w=1100&h=800&s=1);
-    
-    background-size: cover;
+  
     color: white;
 }
 .day {
