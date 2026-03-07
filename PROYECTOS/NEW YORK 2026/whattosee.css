@@ -118,7 +118,7 @@ section {
     
 }
 #daytwo {
-    height: 900px;
+    height: fit-content;
     background-image: url(https://serenaslenses.net/wp-content/uploads/2023/12/View-of-Empire-State-Building-from-the-street.jpg);
     background-size: cover;
     
