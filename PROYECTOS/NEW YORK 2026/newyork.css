@@ -61,7 +61,7 @@ div {
 }
 
 #to-see {
-    height: 300px;
+    height: fit-content;
 
 
 
@@ -115,6 +115,17 @@ a.active {
     color: rgb(179, 203, 43);
     text-decoration: none;
 }
+#restaurants {
+    width: 40%;
+    height: fit-content;
+    margin: 30px;
+    background-color: rgb(169, 142, 142);
+    border-width: 2px;
+    padding: 15px;
+    border-radius: 5%;
+    margin-left: 150px;
+    border-color: rgb(86, 43, 203);
+    border-style: solid;
 
 footer {
     position: relative;
